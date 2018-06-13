@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_inscripcion: MyString
+  documento: MyString
+  curso: MyString
+  estrato: 1
+  valor_credito: 1
+
+two:
+  id_inscripcion: MyString
+  documento: MyString
+  curso: MyString
+  estrato: 1
+  valor_credito: 1

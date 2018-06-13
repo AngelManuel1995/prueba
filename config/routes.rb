@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :cursos
+  resources :inscripciones
   root 'welcome#index'
 
   resources :users

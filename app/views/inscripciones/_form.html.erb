@@ -1,0 +1,42 @@
+<%= form_for(inscripcione) do |f| %>
+  <% if inscripcione.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(inscripcione.errors.count, "error") %> prohibited this inscripcione from being saved:</h2>
+
+      <ul>
+      <% inscripcione.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id_inscripcion %>
+    <%= f.text_field :id_inscripcion %>
+  </div>
+
+  <div class="field">
+    <%= f.label :documento %>
+    <%= f.text_field :documento %>
+  </div>
+
+  <div class="field">
+    <%= f.label :curso %>
+    <%= f.text_field :curso %>
+  </div>
+
+  <div class="field">
+    <%= f.label :estrato %>
+    <%= f.number_field :estrato %>
+  </div>
+
+  <div class="field">
+    <%= f.label :valor_credito %>
+    <%= f.number_field :valor_credito %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

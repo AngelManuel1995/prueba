@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_materia: MyString
+  nombre: MyString
+  num_creditos: 1
+  cupo_max: 1
+  cupo_min: 1
+
+two:
+  id_materia: MyString
+  nombre: MyString
+  num_creditos: 1
+  cupo_max: 1
+  cupo_min: 1

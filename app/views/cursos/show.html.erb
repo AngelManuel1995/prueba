@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id materia:</strong>
+  <%= @curso.id_materia %>
+</p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @curso.nombre %>
+</p>
+
+<p>
+  <strong>Num creditos:</strong>
+  <%= @curso.num_creditos %>
+</p>
+
+<p>
+  <strong>Cupo max:</strong>
+  <%= @curso.cupo_max %>
+</p>
+
+<p>
+  <strong>Cupo min:</strong>
+  <%= @curso.cupo_min %>
+</p>
+
+<%= link_to 'Edit', edit_curso_path(@curso) %> |
+<%= link_to 'Back', cursos_path %>
